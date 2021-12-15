@@ -17,6 +17,7 @@ public class EmpolyeeService {
     public Empolyee saveEmpolyee(Empolyee empolyee) {
 
         log.info("Iniside the service method in Service Class");
+        System.out.println("Test the service class..");
         return empolyeeRepository.save(empolyee);
     }
 
